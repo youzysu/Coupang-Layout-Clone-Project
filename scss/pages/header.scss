@@ -1,0 +1,40 @@
+.header-loginbar {
+  $color: #f0f0f0;
+  background-color: $color;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 12px;
+
+  ul {
+    width: 1020px;
+    display: flex;
+    align-items: center;
+    height: 32px;
+
+    li {
+      color: #333;
+      font-size: 11px;
+      list-style: none;
+      margin-left: 12px;
+    }
+
+    li:nth-child(1) {
+      order: 3;
+    }
+    li:nth-child(2) {
+      order: 4;
+    }
+    li:nth-child(3) {
+      order: 5;
+      flex-grow: 1;
+    }
+    li:nth-child(4) {
+      order: 1;
+    }
+    li:nth-child(5) {
+      order: 2;
+      flex-grow: 16;
+    }
+  }
+}

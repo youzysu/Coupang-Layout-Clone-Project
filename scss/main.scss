@@ -1,10 +1,10 @@
-$color--black: #000;
-$color--white: #fff;
+/** common */
+@import './common.scss';
 
-body {
-  background-color: $color--black;
-  h1 {
-    color: $color--white;
-    display: flex;
-  }
-}
+/** pages */
+@import './pages/discount.scss';
+@import './pages/discovery.scss';
+@import './pages/footer.scss';
+@import './pages/header.scss';
+@import './pages/navigation.scss';
+@import './pages/suggestion.scss';
