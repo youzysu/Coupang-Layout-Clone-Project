@@ -1,0 +1,18 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  section {
+    width: 1920px;
+    height: 450px;
+    background-image: url('/assets/PC_C1-Recovered\ \(2\).jpg');
+
+    ul {
+      right: 10px;
+      img {
+        width: 180px;
+        height: 60px;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+:root {
+  --color-back: #181818;
+  --color-white: #ffffff;
+  --color-blue: #4285f4;
+  --color-gray-light: #f3f3f3;
+  --color-gray-bord: #767676;
+
+  --base-size: 12px;
+}
+
+html {
+  font-size: var(--base-size);
+}
+
+body {
+  color: var(--color-black);
+  background: var(--color-white);
+}
