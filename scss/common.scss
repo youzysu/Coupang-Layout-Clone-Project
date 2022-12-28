@@ -21,12 +21,3 @@ input:focus {
 select:focus {
   outline: none;
 }
-
-a {
-  &:hover {
-    color: var(--color-blue);
-  }
-  &:focus {
-    color: var(--color-blue);
-  }
-}

@@ -145,6 +145,7 @@
     grid-area: nav;
     display: flex;
     gap: 30px;
+    margin-bottom: 8px;
 
     a {
       display: flex;
@@ -159,6 +160,14 @@
         width: 12px;
         height: 12px;
         margin-left: 2px;
+      }
+      &:hover {
+        color: var(--color-blue);
+        text-decoration: underline;
+      }
+      &:focus {
+        color: var(--color-blue);
+        text-decoration: underline;
       }
     }
   }
