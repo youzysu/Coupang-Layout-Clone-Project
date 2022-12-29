@@ -1,0 +1,125 @@
+.footer {
+  .border {
+    font-weight: 600;
+  }
+  .bar {
+    ul {
+      $color: #ddd;
+      margin-top: 60px;
+      padding: 5px 0;
+      border-top: 2px solid $color;
+      border-bottom: 1px solid $color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      font-weight: 400;
+      font-size: 12px;
+      color: #555;
+
+      li {
+        margin: 0 10px;
+        display: flex;
+        justify-content: space-around;
+        white-space: nowrap;
+        &::after {
+          content: '|';
+          margin-left: 15px;
+        }
+        &:last-child:after {
+          content: '';
+        }
+      }
+    }
+  }
+  .middle {
+    padding: 0 20px;
+    $color: #555;
+    display: flex;
+    justify-content: center;
+    color: $color;
+    margin: 32px 0;
+    width: 1020px;
+    height: 100px;
+
+    .logo {
+      flex-grow: 1;
+      a {
+        display: flex;
+        background-size: 117px 25px;
+        width: 117px;
+        height: 25px;
+        background-image: url('/assets/logo-mono.webp');
+      }
+    }
+
+    .info {
+      flex-grow: 2;
+      display: flex;
+      flex-direction: column;
+      line-height: 16px;
+    }
+    .contact {
+      flex-grow: 4;
+      line-height: 20px;
+      a {
+        &:nth-child(1)::after {
+          content: '|';
+          margin: 0 3px;
+        }
+      }
+      .callNumber {
+        display: flex;
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+        margin: 5px 0;
+      }
+      .email {
+        display: flex;
+        font-size: 10px;
+        line-height: 10px;
+      }
+    }
+    .description {
+      flex-grow: 3;
+      line-height: 16px;
+      span {
+        display: flex;
+        &:nth-child(2) {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    span {
+      flex-grow: 2;
+      padding: 20px;
+      color: #7b7b7b;
+    }
+    .sns {
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-evenly;
+      .instaIcon {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: linear-gradient(
+          174.12deg,
+          #285aeb 5.61%,
+          #bc1888 22.32%,
+          #cc2366 36.16%,
+          #dc2743 51.91%,
+          #e6683c 73.38%,
+          #f09433 91.99%
+        );
+      }
+    }
+  }
+}
