@@ -1,0 +1,176 @@
+.promotion {
+  width: 980px;
+  margin-top: 48px;
+  .title {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 20px;
+    h4 {
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+    span {
+      color: var(--color-blue);
+    }
+  }
+
+  .category-best {
+    $color: #5868be;
+    display: flex;
+    border-top: 2px solid $color;
+    border-bottom: 0.01px solid var(--color-gray-light);
+    height: 600px;
+    .left {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 0;
+      .title {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-left: 22px;
+        flex-grow: 1;
+        img {
+          width: 114px;
+        }
+        a {
+          font-size: 11px;
+          color: var(--color-gray-bord);
+          margin-top: 9px;
+        }
+      }
+      .keyword {
+        padding: 22px 10px;
+        strong {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        .hashtags {
+          a {
+            color: $color;
+            display: flex;
+            justify-content: center;
+            border: 1px solid #ccc;
+            padding: 0 10px;
+            white-space: nowrap;
+            line-height: 28px;
+            width: min-content;
+            margin-top: 6px;
+
+            &:hover {
+              color: var(--color-white);
+              background-color: $color;
+            }
+          }
+        }
+      }
+    }
+
+    .carousel {
+      display: flex;
+      position: relative;
+      ul li a {
+        position: relative;
+        div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: var(--color-white);
+          position: absolute;
+          bottom: 60px;
+          left: calc((325px - 280px) / 2);
+          display: flex;
+          width: 280px;
+          height: 80px;
+          background-color: $color;
+          opacity: 90%;
+          strong {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+          }
+        }
+      }
+      ol {
+        position: absolute;
+        bottom: 10px;
+        left: calc((325px - 180px) / 2);
+        display: flex;
+        li {
+          display: flex;
+          width: 10px;
+          height: 10px;
+          background-color: var(--color-gray-bord);
+          opacity: 30%;
+          border-radius: 50%;
+          margin-right: 10px;
+          cursor: pointer;
+          &:nth-child(7) {
+            opacity: 100%;
+          }
+        }
+      }
+    }
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      ul {
+        padding: 30px 10px 0 10px;
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li {
+          width: 160px;
+          a {
+            display: flex;
+            flex-direction: column;
+            .name {
+              padding-top: 5px;
+              line-height: 14px;
+            }
+            .price {
+              strong {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+              }
+            }
+            .discount {
+              color: #ae0000;
+              font-size: 12px;
+              padding-top: 3px;
+            }
+            &:hover {
+              .name {
+                color: var(--color-blue);
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+      ol {
+        display: flex;
+        margin-bottom: 10px;
+        li {
+          display: flex;
+          width: 10px;
+          height: 10px;
+          background-color: var(--color-gray-bord);
+          opacity: 30%;
+          border-radius: 50%;
+          margin-right: 10px;
+          cursor: pointer;
+          &:nth-child(1) {
+            opacity: 100%;
+          }
+        }
+      }
+    }
+  }
+}
