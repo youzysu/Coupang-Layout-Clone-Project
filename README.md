@@ -3,7 +3,7 @@
 > Coupang Website Layout Clone Coding Project For Learning HTML/CSS
 
 - 쿠팡 사이트: https://www.coupang.com
-- DEMO 사이트:
+- DEMO 사이트: https://sparkling-banoffee-dc4ae9.netlify.app/
 
 ## 1. 프로젝트 내용
 
