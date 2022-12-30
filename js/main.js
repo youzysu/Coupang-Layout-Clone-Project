@@ -1,7 +1,24 @@
-console.log('Hello Parcel!')
+const myCoupang = document.querySelector('.myCoupang');
+const cart = document.querySelector('.cart');
 
-async function test() {
-  const promise = Promise.resolve(123)
-  console.log(await promise)
+myCoupang.addEventListener('mouseenter', addActive);
+myCoupang.addEventListener('mouseleave', removeActive);
+
+cart.addEventListener('mouseenter', addEmpty);
+cart.addEventListener('mouseleave', removeEmpty);
+
+function addActive(event) {
+  myCoupang.classList.add('is--active');
 }
-test()
+
+function removeActive(event) {
+  myCoupang.classList.remove('is--active');
+}
+
+function addEmpty(event) {
+  cart.classList.add('cart--empty');
+}
+
+function removeEmpty(event) {
+  cart.classList.remove('cart--empty');
+}
