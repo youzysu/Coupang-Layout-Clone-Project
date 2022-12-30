@@ -4,7 +4,6 @@
   padding-top: 30px;
   height: 350px;
   border-bottom: solid 1px var(--color-gray-light);
-
   .title {
     display: flex;
     align-items: center;
@@ -18,7 +17,6 @@
       font-weight: 600;
     }
   }
-
   ul {
     display: flex;
     width: 980px;
@@ -27,6 +25,10 @@
       width: 194px;
       height: 194px;
       position: relative;
+      a:hover .title {
+        color: var(--color-blue);
+        text-decoration: underline;
+      }
       .discount {
         position: absolute;
         width: 53px;
