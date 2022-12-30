@@ -21,7 +21,7 @@
 
 ### 3.1 쿠팡 헤더 영역
 
-> 📌 [HTML](), [SCSS]()
+> 📌 [HTML](https://github.com/youzysu/KDT4-M1/blob/97f9f07ac098071fd656870a1ad3d5946eb1bbc5/index.html#L16), [SCSS](https://github.com/youzysu/KDT4-M1/blob/YooJiSoo/scss/pages/header.scss), [Javascript](https://github.com/youzysu/KDT4-M1/blob/YooJiSoo/js/main.js)
 
 #### 세부 구현 내용
 
@@ -43,7 +43,7 @@
 
 ### 3.2 쿠팡 배너 영역
 
-> 📌 [HTML](), [SCSS]()
+> 📌 [HTML](https://github.com/youzysu/KDT4-M1/blob/97f9f07ac098071fd656870a1ad3d5946eb1bbc5/index.html#L123), [SCSS](https://github.com/youzysu/KDT4-M1/blob/YooJiSoo/scss/pages/banner.scss)
 
 배너 영역 레이아웃만 잡아 기능 구현 필요
 
@@ -56,7 +56,7 @@
 
 ### 3.3 쿠팡 오늘의 발견 영역
 
-> 📌 [HTML](), [SCSS]()
+> 📌 [HTML](https://github.com/youzysu/KDT4-M1/blob/97f9f07ac098071fd656870a1ad3d5946eb1bbc5/index.html#L165), [SCSS](https://github.com/youzysu/KDT4-M1/blob/YooJiSoo/scss/pages/discovery.scss)
 
 #### 세부 구현 내용
 
@@ -66,7 +66,7 @@
 
 ### 3.4 쿠팡 오늘의 쇼핑 제안 영역
 
-> 📌 [HTML](), [SCSS]()
+> 📌 [HTML](https://github.com/youzysu/KDT4-M1/blob/97f9f07ac098071fd656870a1ad3d5946eb1bbc5/index.html#L222), [SCSS](https://github.com/youzysu/KDT4-M1/blob/YooJiSoo/scss/pages/suggestion.scss)
 
 #### 세부 구현 내용
 
@@ -77,7 +77,7 @@
 
 ### 3.5 쿠팡 카테고리 추천 광고상품 영역
 
-> 📌 [HTML](), [SCSS]()
+> 📌 [HTML](https://github.com/youzysu/KDT4-M1/blob/97f9f07ac098071fd656870a1ad3d5946eb1bbc5/index.html#L372), [SCSS](https://github.com/youzysu/KDT4-M1/blob/YooJiSoo/scss/pages/promotion.scss)
 
 #### 세부 구현 내용
 
@@ -92,7 +92,7 @@
 
 ### 3.6 쿠팡 푸터 영역
 
-> 📌 [HTML](), [SCSS]()
+> 📌 [HTML](https://github.com/youzysu/KDT4-M1/blob/97f9f07ac098071fd656870a1ad3d5946eb1bbc5/index.html#L489), [SCSS](https://github.com/youzysu/KDT4-M1/blob/YooJiSoo/scss/pages/footer.scss)
 
 #### 세부 구현 내용
 
