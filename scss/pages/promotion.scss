@@ -14,7 +14,6 @@
       color: var(--color-blue);
     }
   }
-
   .category-best {
     $color: #5868be;
     display: flex;
@@ -57,7 +56,6 @@
             line-height: 28px;
             width: min-content;
             margin-top: 6px;
-
             &:hover {
               color: var(--color-white);
               background-color: $color;
@@ -66,7 +64,6 @@
         }
       }
     }
-
     .carousel {
       display: flex;
       position: relative;
@@ -113,7 +110,6 @@
         }
       }
     }
-
     .product {
       display: flex;
       flex-direction: column;
