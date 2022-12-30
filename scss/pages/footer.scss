@@ -33,17 +33,15 @@
     }
   }
   .middle {
-    padding: 0 20px;
     $color: #555;
     display: flex;
     justify-content: center;
     color: $color;
-    margin: 32px 0;
-    width: 1020px;
-    height: 100px;
+    padding: 20px 0;
+    white-space: nowrap;
 
     .logo {
-      flex-grow: 1;
+      margin-right: 30px;
       a {
         display: flex;
         background-size: 117px 25px;
@@ -54,14 +52,14 @@
     }
 
     .info {
-      flex-grow: 2;
       display: flex;
       flex-direction: column;
       line-height: 16px;
+      margin-right: 90px;
     }
     .contact {
-      flex-grow: 4;
       line-height: 20px;
+      margin-right: 150px;
       a {
         &:nth-child(1)::after {
           content: '|';
@@ -82,7 +80,6 @@
       }
     }
     .description {
-      flex-grow: 3;
       line-height: 16px;
       span {
         display: flex;
@@ -95,17 +92,20 @@
 
   .bottom {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #333;
     span {
-      flex-grow: 2;
       padding: 20px;
       color: #7b7b7b;
+      margin-right: 100px;
+      white-space: nowrap;
     }
     .sns {
-      flex-grow: 1;
       display: flex;
-      justify-content: space-evenly;
+      a {
+        margin-right: 5px;
+      }
       .instaIcon {
         width: 34px;
         height: 34px;
