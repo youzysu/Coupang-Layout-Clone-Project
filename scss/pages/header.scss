@@ -15,7 +15,6 @@
     li {
       color: #333;
       font-size: 11px;
-      list-style: none;
       margin-left: 12px;
     }
 
@@ -27,14 +26,13 @@
     }
     li:nth-child(3) {
       order: 5;
-      flex-grow: 1;
     }
     li:nth-child(4) {
       order: 1;
     }
     li:nth-child(5) {
       order: 2;
-      flex-grow: 16;
+      flex-grow: 1;
     }
   }
 }
