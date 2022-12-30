@@ -38,23 +38,21 @@
 }
 
 .header-main {
-  justify-content: center;
-  align-items: end;
   display: grid;
   grid-template-areas:
     'category logo search menu'
     'category nav nav nav';
+  justify-content: center;
+  align-items: end;
   .category {
     grid-area: category;
     width: 110px;
     height: 116px;
     background: url('/assets/pc_header_img_sprite.png') no-repeat;
-    background-position: 0 0;
-    border: none;
     color: var(--color-white);
     line-height: 160px;
     margin-right: 30px;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
   }
 
