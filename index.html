@@ -5,12 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>쿠팡!</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
@@ -19,7 +13,8 @@
     <script defer src="./js/main.js"></script>
   </head>
   <body>
-    <header class="header">
+    <!-- Header -->
+    <section class="header">
       <div class="header-loginbar">
         <ul>
           <li><a href="">로그인</a></li>
@@ -111,10 +106,12 @@
           /></a>
         </div>
       </div>
-    </header>
-    <div class="content">
-      <banner class="banner"
-        ><section class="main-today">
+    </section>
+
+    <div class="main">
+      <!-- Banner -->
+      <section class="banner">
+        <section class="main-today">
           <ul class="banner-list">
             <li>
               <a href=""
@@ -150,9 +147,12 @@
                 ><img src="/assets/banner_list_06.jpg" alt="인기 생필품 배너"
               /></a>
             </li>
-          </ul></section
-      ></banner>
-      <discovery class="discovery">
+          </ul>
+        </section>
+      </section>
+
+      <!-- Discovery -->
+      <section class="discovery">
         <div class="headline">
           <h2>오늘의 발견</h2>
           <h4>|</h4>
@@ -213,8 +213,10 @@
             >
           </div>
         </div>
-      </discovery>
-      <suggestion class="suggestion">
+      </section>
+
+      <!-- Suggestion -->
+      <section class="suggestion">
         <div class="title">
           <img
             src="/assets/icon-shopping-bag@3x.png"
@@ -361,8 +363,10 @@
             </li>
           </ul>
         </div>
-      </suggestion>
-      <promotion class="promotion">
+      </section>
+
+      <!-- Promotion -->
+      <section class="promotion">
         <div class="title">
           <h4>HOT! TREND</h4>
           <h2>카테고리별 <span>추천 광고상품</span></h2>
@@ -478,9 +482,11 @@
             </ol>
           </div>
         </div>
-      </promotion>
+      </section>
     </div>
-    <footer class="footer">
+
+    <!-- Footer -->
+    <section class="footer">
       <div class="bar">
         <ul>
           <li><a href="">회사소개</a></li>
@@ -575,6 +581,6 @@
           /></a>
         </div>
       </div>
-    </footer>
+    </section>
   </body>
 </html>
